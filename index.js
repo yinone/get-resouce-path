@@ -3,7 +3,7 @@
 * @E-mail: eleven.image@gmail.com
 * @Date:   2017-02-04 20:34:18
 * @Last Modified by:   eleven
-* @Last Modified time: 2017-02-04 21:32:33
+* @Last Modified time: 2017-02-04 22:00:39
 */
 
 'use strict';
@@ -19,6 +19,7 @@ const fs = require('fs');
  */
 
 function getPath(_directory, total = []) {
+	
 	if(typeof _directory !== 'string') return false;
 	_directory = _directory.search(/(\/|\\\\)$/) > -1 ? _directory : _directory + path.sep
 	let sources = fs.readdirSync(_directory);
