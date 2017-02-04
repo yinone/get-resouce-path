@@ -35,10 +35,10 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com:yinone/get-path.git"
+    "url": "git+ssh://git@github.com:yinone/get-resouce-path.git"
   },
   "bugs": {
-    "url": "https://github.com/yinone/get-path/issues",
+    "url": "https://github.com/yinone/get-resouce-path/issues",
     "email": "eleven.image@gmail.com"
   },
   "devDependencies": {
