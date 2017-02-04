@@ -1,0 +1,48 @@
+{
+  "name": "get-path",
+  "version": "1.0.0",
+  "description": "Gets the path to all the resources of the destination folder",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "node",
+    "path"
+  ],
+  "babel": {
+    "presets": [
+      "es2015"
+    ],
+    "comments": false
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "browser": true,
+      "commonjs": true,
+      "es6": true,
+      "node": true
+    },
+    "parserOptions": {
+      "sourceType": "module"
+    },
+    "plugins": [
+      "html"
+    ]
+  },
+  "author": "Eleven",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:yinone/get-path.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yinone/get-path/issues",
+    "email": "eleven.image@gmail.com"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0",
+    "vinyl": "^2.0.1"
+  }
+}
