@@ -1,5 +1,5 @@
 {
-  "name": "get-path",
+  "name": "get-source-path",
   "version": "1.0.0",
   "description": "Gets the path to all the resources of the destination folder",
   "main": "index.js",
