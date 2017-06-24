@@ -2,8 +2,8 @@
 
 ### Installation
     
-    npm install get-source-path
-    yarn add get-source=path
+    npm install get-source-path --save
+    yarn add get-source-path
 
 ---
 [![Build Status](https://travis-ci.org/yinone/get-resouce-path.svg?branch=master)](https://travis-ci.org/yinone/get-resouce-path)
