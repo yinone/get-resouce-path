@@ -1,2 +1,10 @@
-# get-path with nodejs [![Build Status](https://travis-ci.org/yinone/get-resouce-path.svg?branch=master)](https://travis-ci.org/yinone/get-resouce-path)
-Gets the path to all the resources of the destination folder
+## Recursively fetch the folder name
+
+### Installation
+    
+    npm install get-source-path
+    yarn add get-source=path
+
+---
+[![Build Status](https://travis-ci.org/yinone/get-resouce-path.svg?branch=master)](https://travis-ci.org/yinone/get-resouce-path)
+![](https://dl.dropboxusercontent.com/s/blyjx1sh5ncdpqo/vi.png?dl=0)
