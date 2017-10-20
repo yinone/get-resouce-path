@@ -21,10 +21,10 @@ const fs = require('fs');
 function getPath(_directory, total = []) {
 	
 	if(typeof _directory !== 'string') return false;
-	_directory = _directory.search(/(\/|\\\\)$/) > -1 ? _directory : _directory + path.sep
+	_directory = _directory.search(/(\/|\\\\)$/) > 0 ? _directory : _directory + path.sep
 	let sources = fs.readdirSync(_directory);
 	sources.forEach(function(v) {
-		if(v.indexOf('DS_Store') > -1) return false;
+		if(v.indexOf('DS_Store') > 0) return false;
 		if(!fs.statSync(_directory + v).isDirectory()) {
 			total.push(_directory + v);
 		}else{
